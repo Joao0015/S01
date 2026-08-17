@@ -1,6 +1,3 @@
-link para o exercicio 4:
-## https://onecompiler.com/basic/44yj7zscd
-
 Dim distancia as INTEGER
 Dim tempo as INTEGER
 Dim pace as SINGLE
