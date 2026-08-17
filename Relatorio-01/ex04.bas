@@ -11,3 +11,5 @@ INPUT tempo
 pace = tempo/distancia
 
 PRINT "O pace medio em min/km e:"; pace
+
+Sleep
