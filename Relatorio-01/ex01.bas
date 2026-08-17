@@ -1,8 +1,3 @@
-## Link de acesso ao exercicio 1
-
-https://onecompiler.com/basic/44y6n4wrd
-
-
 Dim peso As Single
 Dim agua As Single
 Dim meta As Single
