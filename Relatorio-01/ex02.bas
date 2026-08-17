@@ -1,6 +1,3 @@
-link do ex 2:
-## https://onecompiler.com/basic/44y6pget3
-
 Dim PIN as Integer 
 Dim secretPIN as Integer
 
