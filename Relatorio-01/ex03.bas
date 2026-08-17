@@ -1,6 +1,3 @@
-link do ex 3:
-## https://onecompiler.com/basic/44yj7bmcw
-
 Dim horas as SINGLE
 Dim minutos as SINGLE
 Dim segundos as SINGLE
@@ -16,6 +13,6 @@ PRINT "O valor original em horas e:"; horas
 PRINT "O valor em minutos e:"; minutos
 PRINT "O valor em segundos:"; segundos
 
-
+Sleep
 
 
