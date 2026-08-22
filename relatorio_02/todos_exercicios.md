@@ -1,4 +1,5 @@
 # Link de todos exercicios
 
-https://onecompiler.com/lua/44yw57q22
-https://onecompiler.com/lua/44yzqswn3
+ex 1 -https://onecompiler.com/lua/44yw57q22
+
+ex 2 -https://onecompiler.com/lua/44yzqswn3
