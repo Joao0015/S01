@@ -1,0 +1,19 @@
+print("Digite o primeiro numero inteiro para o expoente inicial:")
+local M = tonumber(io.read())
+
+print("Digite o segundo numero inteiro maior ou igual ao anterior para o expoente final:")
+local N = tonumber(io.read())
+
+print("Digite o terceiro numero inteiro para a base da potenciacao:")
+local B = tonumber(io.read())
+
+function gerarTabelaPotencias(inicio,fim,base)
+    for i = inicio, fim do
+        local valor = base^i
+        print (valor)
+    end
+end
+
+gerarTabelaPotencias(M,N,B)
+
+Sleep
