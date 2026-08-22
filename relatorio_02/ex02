@@ -1,0 +1,28 @@
+function contarOcorrencias(tabela,alvo) 
+    local contador = tonumber(0)
+    for i = 1, #tabela do
+        if tabela[i] == alvo then
+            contador = contador+1
+        end
+    end
+    return contador
+end
+
+print("Digite uma quantidade N de elementos de uma tabela:")
+local N = tonumber(io.read())
+local aux
+local tabela = {}
+
+for i = 1, N do
+    aux = tonumber(io.read())
+    table.insert(tabela, aux)
+end
+
+print("Digite o numero que voce deseja buscar na tabela: ")
+
+local alvo = tonumber(io.read())
+
+local qtdAparicao = contarOcorrencias(tabela,alvo)
+
+print("O numero " ..alvo .. " apareceu " .. qtdAparicao .. " vezes")
+
