@@ -14,6 +14,7 @@ local aux
 local tabela = {}
 
 for i = 1, N do
+    print("Digite o elemento ".. i .. ":")
     aux = tonumber(io.read())
     table.insert(tabela, aux)
 end
@@ -24,5 +25,4 @@ local alvo = tonumber(io.read())
 
 local qtdAparicao = contarOcorrencias(tabela,alvo)
 
-print("O numero " ..alvo .. " apareceu " .. qtdAparicao .. " vezes")
-
+print("O numero " ..alvo .. " apareceu " .. qtdAparicao .. " vez(es)")
