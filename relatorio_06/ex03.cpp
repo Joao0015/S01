@@ -27,7 +27,7 @@ public:
     Aluno(string n, string c) : MembroInatel(n), curso(c) {}
 
     void seApresentar() override {
-        cout << "Sou o aluno " << nome << " do curso de " << curso << "." << endl;
+        cout << "Meu nome e " << nome << " e estudo no curso de " << curso << "." << endl;
     }
 };
 
@@ -40,7 +40,7 @@ public:
     Professor(string n, string d) : MembroInatel(n), disciplina(d) {}
 
     void seApresentar() override {
-        cout << "Sou o professor " << nome << " da disciplina de " << disciplina << "." << endl;
+        cout << "Meu nome e " << nome << " e leciono a disciplina de " << disciplina << "." << endl;
     }
 };
 
@@ -52,7 +52,7 @@ int main() {
     Aluno aluno1("Joaozin", "Engenharia de Pesca");
     Professor prof1("Carlos", "Redes(de pesca)");
 
-    // Comparação do método seApresentar()
+     // Comparação do método seApresentar()
     membro1.seApresentar();
     aluno1.seApresentar();
     prof1.seApresentar();
