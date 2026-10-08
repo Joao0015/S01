@@ -79,12 +79,12 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        EntidadeCosmica serGenerico = new EntidadeCosmica("Ser de Luz");
-        serGenerico.Origem = "Galáxia Andromeda";
+        EntidadeCosmica serGenerico = new EntidadeCosmica("Ori");
+        serGenerico.Origem = "Dark Florest";
 
-        Profundo monstroAquatico = new Profundo("Monstro do Lago");
+        Profundo monstroAquatico = new Profundo("Wild Shark");
 
-        MiGo criaturaVoadora = new MiGo("Inseto Gigante");
+        MiGo criaturaVoadora = new MiGo("Butterfly");
         criaturaVoadora.Origem = "Planeta X";
 
         Pesquisador cientista = new Pesquisador("Doutor Takeichi");
