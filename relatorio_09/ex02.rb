@@ -54,3 +54,11 @@ maestro.convocar(kousei)
 maestro.convocar(kaori)
 maestro.reger("Liebesleid")
 maestro.escalacao.each { |m| puts m }
+
+caraQualquer = Instrumentista.new("Random", "violino")
+
+# caraQualquer.interpretar("Beethoven")
+# HelloWorld.rb:10:in `interpretar': Instrumentista deve implementar interpretar (NotImplementedError)
+# 	from HelloWorld.rb:60:in `<top (required)>'
+# 	from -e:1:in `load'
+# 	from -e:1:in `<main>'
